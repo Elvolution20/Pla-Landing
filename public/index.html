@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Planetopia - Explore the Universe</title>
+  <meta name="description" content="Biggest Universe with cool Dapps">
+  </meta>
+  <meta property="og:title" content="Planetopia - Explore the Universe" />
+  <meta property="og:url" content="https://planetopia.finance" />
+  <meta property="og:image" content="assets/embed.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:site" content="@planetopia_defi" />
+  <meta name="twitter:title" content="Planetopia - Explore the Universe" />
+  <meta name="twitter:creator" content="@planetopia_defi" />
+  <meta name="twitter:image"
+    content="https://res.cloudinary.com/dev-connect/image/upload/v1645093690/img/embed_wqfswz.webp" />
+  <meta name="twitter:description" content="Biggest Universe with cool Dapps" />
+  <meta name="twitter:card" content="summary_large_image">
+  </meta>
+  <meta property="og:description" content="Biggest Universe with cool Dapps" />
+
+
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+</head>
+
+<body>
+  <script>
+    (function (d, t) {
+      var BASE_URL = "https://app.chatwoot.com";
+      var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+      g.src = BASE_URL + "/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g, s);
+      g.onload = function () {
+        window.chatwootSDK.run({
+          websiteToken: "%REACT_APP_CHATWOOT_TOKEN%",
+          baseUrl: BASE_URL,
+        });
+      };
+    })(document, "script");
+  </script>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>

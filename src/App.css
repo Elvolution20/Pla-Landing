@@ -1,0 +1,48 @@
+:root {
+  --main-color: #f0648f;
+  --secondary-color: #af7dd5;
+  --third-color: #e68d94;
+  --white-color: #fff;
+  --black-color: #000;
+  --grey-color: rgba(0, 0, 0,0.36);
+}
+
+/* @font-face {
+  font-family: "Azonix";
+  src: local("Azonix"), url(../public/Azonix.otf) format("truetype");
+} */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Azonix'; /*a name to be used later*/
+  src: url('/src/Assets/Azonix.otf'); /*URL to font*/
+}
+.hero-content-line::before{
+  font-family: "Azonix";
+}
+.subtext-head::before{
+  font-family: 'Poppins', sans-serif;
+}
+*::selection {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}

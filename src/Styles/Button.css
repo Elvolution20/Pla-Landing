@@ -1,0 +1,58 @@
+button {
+  z-index: 1;
+  cursor:pointer;
+  pointer-events: all;
+  padding: 5px 12px;
+  letter-spacing: 0.5px;
+  border-radius: 999px;
+  border: none;
+  text-align: center;
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+.button {
+  color: #935cfe;
+  background: var(--white-color);
+  padding: 0.5rem 1.6rem;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: rgba(141, 141, 255, 0.815);
+  color: var(--white-color);
+}
+
+.gradient-button {
+  color: var(--white-color);
+  background: #935cfe;
+  padding: 0.4rem 1rem;
+  font-size: 16px;
+  box-shadow: 0 10px 20px -10px #935cfe;
+  border-radius: 999px;
+}
+
+.gradient-button:hover {
+  background-color: #935cfe;
+  color: var(--white-color);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.button a {
+  text-decoration: none;
+  color: var(--white-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-button a {
+  text-decoration: none;
+  color: var(--white-color);
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}
