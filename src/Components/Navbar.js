@@ -6,20 +6,20 @@ import React, { useEffect, useState } from "react";
 
 import logo from "../Assets/logo.svg";
 import GradientButton from "./GradientButton";
-import HowToModal from "./Promo";
+
 
 import "../Styles/Navbar.css";
 import "aos/dist/aos.css";
 
 const MenuItems = [
   {
-    title: "MarketPlace",
-    url: "https://planetopia-market.vercel.app/",
+    title: "Mint",
+    url: "#",
     cName: "nav-link",
   },
   {
-    title: "Mint",
-    url: "",
+    title: "Marketplace",
+    url: "planetopia-market.vercel.app",
     cName: "nav-link",
   },
   {
@@ -62,7 +62,7 @@ const Navbar = () => {
           </div>
           <ul className={clicked ? "nav-links active" : "nav-links"}>
             {MenuItems.map((item, index) => {
-              return index !== 0 ? (
+              return index !== 3 ? (
                 <li key={index}>
                   <a className={item.cName} href={item.url} target={"_blank"}>
                     {item.title}
@@ -82,7 +82,6 @@ const Navbar = () => {
               );
             })}
           </ul>
-          <HowToModal isOpen={isOpen} onClose={onClose} />
         </Flex>
       </nav>
     </Flex>
