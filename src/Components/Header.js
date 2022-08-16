@@ -5,10 +5,10 @@ import { Power3, TimelineLite, TweenMax } from "gsap";
 import React, { useEffect, useRef } from "react";
 import { IoIosCall } from "react-icons/io";
 
-import headerVideo from "../Assets/FloatingCard_Animation_4.mp4";
+import conflux from "../Assets/conflux.jpg";
+import evmos from "../Assets/evmos.png";
 import polygon from "../Assets/polygon.png";
-import solana from "../Assets/solana.png";
-import superteamdao from "../Assets/superteamdao.jpeg";
+import headerVideo from "../Assets/spacesuit.mp4";
 import GradientButton from "./GradientButton";
 
 import "../Styles/Header.css";
@@ -134,7 +134,7 @@ const Header = () => {
             <Image
               h="14"
               w="14"
-              src={solana}
+              src={evmos}
               alt="polygon"
               rounded="full"
               minH="14"
@@ -148,7 +148,7 @@ const Header = () => {
               w="14"
               minH="14"
               minW="14"
-              src={superteamdao}
+              src={conflux}
               alt="polygon"
               rounded="full"
             />

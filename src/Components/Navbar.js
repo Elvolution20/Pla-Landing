@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AOS from "aos";
 import React, { useEffect, useState } from "react";
 
-import logo from "../Assets/metapass transparent.png";
+import logo from "../Assets/logo.svg";
 import GradientButton from "./GradientButton";
 import HowToModal from "./Promo";
 
@@ -14,17 +14,17 @@ import "aos/dist/aos.css";
 const MenuItems = [
   {
     title: "MarketPlace",
-    url: "https://app.metapasshq.xyz/",
+    url: "https://planetopia-market.vercel.app/",
     cName: "nav-link",
   },
   {
     title: "Mint",
-    url: "https://discord.gg/CBQ5YNnFXx",
+    url: "",
     cName: "nav-link",
   },
   {
     title: "Games",
-    url: "https://app.metapasshq.xyz/",
+    url: ".xyz/",
     cName: "nav-link",
   },
 ];

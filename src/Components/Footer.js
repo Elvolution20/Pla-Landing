@@ -2,7 +2,7 @@ import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-import logo from "../Assets/metapass transparent.png";
+import logo from "../Assets/logo.svg";
 
 import "../Styles/Footer.css";
 
@@ -31,7 +31,10 @@ const Footer = () => {
 					<ul className="footer-links">
 						<h3>Dapps</h3>
 						<li>
-							<a href="/">MarketPlace</a>
+							<a href="https://planetopia-market.vercel.app/">MarketPlace</a>
+						</li>
+						<li>
+							<a href="/">Swap</a>
 						</li>
 						<li>
 							<a href="/">Bridge</a>

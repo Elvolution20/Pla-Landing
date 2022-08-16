@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useRef } from "react";
 import { IoIosCall } from "react-icons/io";
 
+import live from "../Assets/blackhole.mp4";
 import chingari from "../Assets/chingari banner.svg";
 // import {} from "@fortawesome/fontawesome-svg-core"
-import token from "../Assets/gate.m4v";
-import live from "../Assets/Surf2.mp4";
+import token from "../Assets/spaceship.mp4";
 import ticket from "../Assets/ticket1.png";
 import Button from "./Button";
 import GradientButton from "./GradientButton";
@@ -47,7 +47,7 @@ const Main = () => {
             autoPlay
             muted
             loop
-            width={600}
+            width={400}
             src={live}
             alt="live"
           />
