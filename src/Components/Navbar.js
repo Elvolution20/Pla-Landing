@@ -31,6 +31,11 @@ const MenuItems = [
     url: "http://space-mission-eight.vercel.app/",
     cName: "nav-link",
   },
+  {
+    title: "Bridge",
+    url: "",
+    cName: "nav-link",
+  },
 ];
 
 const Navbar = () => {
@@ -66,7 +71,7 @@ const Navbar = () => {
           </div>
           <ul className={clicked ? "nav-links active" : "nav-links"}>
             {MenuItems.map((item, index) => {
-              return index !== 4 ? (
+              return index !== 6 ? (
                 <li key={index}>
                   <a className={item.cName} href={item.url} target={"_blank"}>
                     {item.title}
