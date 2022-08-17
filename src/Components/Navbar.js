@@ -7,24 +7,28 @@ import React, { useEffect, useState } from "react";
 import logo from "../Assets/logo.svg";
 import GradientButton from "./GradientButton";
 
-
 import "../Styles/Navbar.css";
 import "aos/dist/aos.css";
 
 const MenuItems = [
   {
-    title: "Mint",
-    url: "#",
-    cName: "nav-link",
-  },
-  {
     title: "Marketplace",
-    url: "planetopia-market.vercel.app",
+    url: "http://planetopia-market.vercel.app",
     cName: "nav-link",
   },
   {
-    title: "Games",
-    url: ".xyz/",
+    title: "Mint",
+    url: "",
+    cName: "nav-link",
+  },
+  {
+    title: "Swap",
+    url: "",
+    cName: "nav-link",
+  },
+  {
+    title: "Game",
+    url: "http://space-mission-eight.vercel.app/",
     cName: "nav-link",
   },
 ];
@@ -62,7 +66,7 @@ const Navbar = () => {
           </div>
           <ul className={clicked ? "nav-links active" : "nav-links"}>
             {MenuItems.map((item, index) => {
-              return index !== 3 ? (
+              return index !== 4 ? (
                 <li key={index}>
                   <a className={item.cName} href={item.url} target={"_blank"}>
                     {item.title}

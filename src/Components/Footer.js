@@ -17,7 +17,7 @@ const Footer = () => {
 					<ul className="footer-links">
 						<h3>Community</h3>
 						<li>
-							<a href="/">Twitter</a>
+							<a href="https://twitter.com/Planetopia_Defi">Twitter</a>
 						</li>
 						<li>
 							<a href="/">Discord</a>
