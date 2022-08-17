@@ -33,7 +33,7 @@ const MenuItems = [
   },
   {
     title: "Bridge",
-    url: "",
+    url: "http://pla-bridge.vercel.app/",
     cName: "nav-link",
   },
 ];
