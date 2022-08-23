@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Planetopia Git Repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bridge - https://github.com/Elvolution20/Pla-Bridge
+
+Market - https://github.com/Elvolution20/Planetopia-Market
+
+For Polygon Hackathon
 
 ## Available Scripts
 
