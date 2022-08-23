@@ -6,7 +6,6 @@ import React, { useRef } from "react";
 import { IoIosCall } from "react-icons/io";
 
 import live from "../Assets/blackhole.mp4";
-import chingari from "../Assets/chingari banner.svg";
 // import {} from "@fortawesome/fontawesome-svg-core"
 import token from "../Assets/spaceship.mp4";
 import ticket from "../Assets/ticket1.png";
