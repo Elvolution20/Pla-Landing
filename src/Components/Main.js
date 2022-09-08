@@ -11,8 +11,6 @@ import token from "../Assets/spaceship.mp4";
 import ticket from "../Assets/ticket1.png";
 import Button from "./Button";
 import GradientButton from "./GradientButton";
-import TwitterFeed from "./TwitterFeed";
-
 import "../Styles/Main.css";
 
 // import { ReactComponent as ChartIcon } from "./chart-svgrepo-com.svg";

@@ -22,20 +22,17 @@ const MenuItems = [
     cName: "nav-link",
   },
   {
-    title: "Swap",
-    url: "",
-    cName: "nav-link",
-  },
+      title: "Bridge",
+      url: "http://pla-bridge.vercel.app/",
+      cName: "nav-link",
+    },
   {
     title: "Game",
     url: "http://space-mission-eight.vercel.app/",
     cName: "nav-link",
   },
-  {
-    title: "Bridge",
-    url: "http://pla-bridge.vercel.app/",
-    cName: "nav-link",
-  },
+
+  
 ];
 
 const Navbar = () => {
