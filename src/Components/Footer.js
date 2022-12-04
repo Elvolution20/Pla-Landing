@@ -37,9 +37,6 @@ const Footer = () => {
 							<a href="/">Swap</a>
 						</li>
 						<li>
-							<a href="/">Bridge</a>
-						</li>
-						<li>
 							<a href="/">Games</a>
 						</li>
 						<li>

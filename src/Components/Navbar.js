@@ -22,8 +22,8 @@ const MenuItems = [
     cName: "nav-link",
   },
   {
-      title: "Bridge",
-      url: "http://pla-bridge.vercel.app/",
+      title: "Spaceverse",
+      url: "",
       cName: "nav-link",
     },
   {
