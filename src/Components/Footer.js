@@ -31,7 +31,7 @@ const Footer = () => {
 					<ul className="footer-links">
 						<h3>Dapps</h3>
 						<li>
-							<a href="https://planetopia-market.vercel.app/">MarketPlace</a>
+							<a href="/">MarketPlace</a>
 						</li>
 						<li>
 							<a href="/">Swap</a>

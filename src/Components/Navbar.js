@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 const MenuItems = [
   {
     title: "Marketplace",
-    url: "http://planetopia-market.vercel.app",
+    url: "",
     cName: "nav-link",
   },
   {
@@ -28,7 +28,7 @@ const MenuItems = [
     },
   {
     title: "Game",
-    url: "http://space-mission-eight.vercel.app/",
+    url: "",
     cName: "nav-link",
   },
 
